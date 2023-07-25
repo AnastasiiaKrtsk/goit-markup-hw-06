@@ -390,7 +390,7 @@
         <div class="modal-footer">
           <p class="footer-text">Subscribe</p>
           <form>
-            <label for="user-name">
+            <label for="user-email">
               <span class="footer-wrap-div">
                 <input
                   class="footer-input"
@@ -400,7 +400,6 @@
                   placeholder="E-mail"
                   required
                 />
-                <button class="buttons send" type="submit">Send</button>
                 <svg>
                   <use
                     href="./images/icons.svg#telegram"
@@ -410,6 +409,7 @@
                 </svg>
               </span>
             </label>
+            <button class="buttons send" type="submit">Send</button>
           </form>
         </div>
       </div>
@@ -431,8 +431,8 @@
           Leave your contacts and we will call you back
         </p>
         <form class="form">
-          <label for="user-name"
-            ><p class="text label-text">Name</p>
+          <label for="user-name">
+            <span class="text label-text">Name</span>
             <span class="modal-wrap-div">
               <input
                 class="input"
@@ -447,8 +447,8 @@
             </span>
           </label>
 
-          <label for="user-name"
-            ><p class="text label-text">Phone</p>
+          <label for="user-tel"
+            ><span class="text label-text">Phone</span>
             <span class="modal-wrap-div">
               <input
                 class="input"
@@ -463,14 +463,14 @@
             </span>
           </label>
 
-          <label for="user-name"
-            ><p class="text label-text">Email</p>
+          <label for="email"
+            ><span class="text label-text">Email</span>
             <span class="modal-wrap-div">
               <input
                 class="input"
                 type="email"
-                id="user-email"
-                name="user-email"
+                id="email"
+                name="email"
                 required
               />
               <svg class="modal-svg" width="18" height="24">
@@ -480,7 +480,7 @@
           </label>
 
           <label for="comment"
-            ><p class="text label-text">Comment</p>
+            ><span class="text label-text">Comment</span>
             <span class="modal-wrap-div">
               <textarea
                 class="text textarea"
