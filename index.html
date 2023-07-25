@@ -389,27 +389,28 @@
 
         <div class="modal-footer">
           <p class="footer-text">Subscribe</p>
-          <form>
-            <label for="user-email">
-              <span class="footer-wrap-div">
-                <input
-                  class="footer-input"
-                  type="email"
-                  id="user-email"
-                  name="user-email"
-                  placeholder="E-mail"
-                  required
-                />
-                <svg>
-                  <use
-                    href="./images/icons.svg#telegram"
-                    width="24"
-                    height="24"
-                  ></use>
-                </svg>
-              </span>
+          <form class="footer-form">
+            <label class="footer-label" for="user-email">
+              <!-- <span class="footer-wrap-div"> -->
+              <input
+                class="footer-input"
+                type="email"
+                id="user-email"
+                name="user-email"
+                placeholder="E-mail"
+                required
+              />
+
+              <!-- </span> -->
             </label>
-            <button class="buttons send" type="submit">Send</button>
+            <button class="subscribe-btn" type="submit">Subscribe</button>
+            <svg class="footer-icon">
+              <use
+                href="./images/icons.svg#telegram"
+                width="24"
+                height="24"
+              ></use>
+            </svg>
           </form>
         </div>
       </div>
