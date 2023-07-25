@@ -758,7 +758,7 @@ body {
   margin-bottom: 16px;
   text-align: center;
   font-weight: 500;
-  line-height: 1.17;
+  line-height: 1.5;
   letter-spacing: 0.32px;
   color: #2e2f42;
 }
@@ -770,6 +770,8 @@ body {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
+
+  transition: fill var(--transition);
 }
 .label-text {
   margin-bottom: 4px;
@@ -808,8 +810,7 @@ body {
   outline-offset: 2px;
   border-color: #4d5ae5;
 }
-.check-text {
-}
+
 .input {
   transition: border-color var(--transition);
 
@@ -819,8 +820,11 @@ body {
   border: 1px solid rgba(46, 47, 66, 0.4);
   color: #434455;
   font-size: 18px;
-  padding: 11px 38px;
+  padding-left: 38px;
   margin-bottom: 8px;
+  background-color: transparent;
+
+  outline: transparent;
 }
 .input:focus {
   outline: transparent;
@@ -845,4 +849,16 @@ body {
   flex-direction: column;
   width: 360px;
   margin: auto;
+}
+.form-div {
+  margin-bottom: 8px;
+}
+
+.user-name {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
 }
