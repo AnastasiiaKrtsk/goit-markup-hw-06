@@ -500,7 +500,7 @@ body {
   transform: translateY(0%);
   height: 100%;
 }
-.overlay-div:focus {
+.overlay-div:focus .overlay {
   transform: translateY(0%);
   height: 100%;
 }
