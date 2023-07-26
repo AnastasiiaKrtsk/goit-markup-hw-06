@@ -807,7 +807,7 @@ body {
 .privacy-div {
   margin-bottom: 24px;
 }
-.visually-hidden:checked + .label + .check-svg {
+.visually-hidden:checked + .label + .privacy-span + use {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
