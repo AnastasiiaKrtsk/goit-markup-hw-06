@@ -783,7 +783,18 @@ body {
 
   color: #8e8f99;
 }
-.div-comment {
+.privacy-text {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color var(--transition), border var(--transition);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+.div-different {
   margin-bottom: 16px;
 }
 .textarea {
@@ -792,9 +803,17 @@ body {
   resize: none;
   padding: 8px 16px;
 
-  font-size: 18px;
+  font-size: 12px;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
+
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  outline: transparent;
+  resize: none;
+  transition: border-color var(--transition);
 }
 
 .textarea::placeholder {
