@@ -798,6 +798,9 @@ body {
 .div-different {
   margin-bottom: 16px;
 }
+.privacy-div {
+  margin-bottom: 24px;
+}
 .textarea {
   width: 100%;
   height: 120px;
@@ -892,10 +895,4 @@ body {
   color: #8e8f99;
   display: block;
   margin-bottom: 4px;
-}
-.input-checked {
-  visibility: hidden;
-  opacity: 0;
-  top: 0;
-  left: 0;
 }
