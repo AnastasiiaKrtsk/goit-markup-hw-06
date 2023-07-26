@@ -619,7 +619,6 @@ body {
 }
 .footer-div {
   display: inline-block;
-  margin-right: 120px;
 }
 
 .footer-container {
@@ -677,6 +676,9 @@ body {
 }
 .footer-icon {
   margin-left: 16px;
+  fill: #ffffff;
+}
+.modal-footer {
 }
 /* ================ BACKDROP ================ */
 .modal.is-hidden {
