@@ -784,16 +784,17 @@ body {
   color: #8e8f99;
 }
 .privacy-text {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color var(--transition), border var(--transition),
     fill var(--transition);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  fill: transparent;
 }
 .div-different {
   margin-bottom: 16px;
