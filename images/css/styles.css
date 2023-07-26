@@ -893,9 +893,3 @@ body {
   display: block;
   margin-bottom: 4px;
 }
-.input-checked {
-  visibility: hidden;
-  opacity: 0;
-  top: 0;
-  left: 0;
-}
